@@ -22,7 +22,6 @@ public class GoalDetector : MonoBehaviour
             ballMove.startX = 1f;
         }
 
-        ballMove.ResetBall();
-        ballMove.LaunchBall();
+        ballMove.ResetAndLaunch();
     }
 }
